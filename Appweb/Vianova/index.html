@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIANOVA - Proyecto Integrador</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="Logo de VIANOVA" class="logo">
+        <h1>VIANOVA</h1>
+        <p>Navegación y reportes de vías</p>
+        <button id="btnTema">Cambiar color de fondo</button>
+    </header>
+
+    <main>
+
+        <section class="tarjeta">
+            <h2>El problema</h2>
+            <img src="img/bache.jpg" alt="Bache en la calle" class="imagen-seccion">
+            <p>
+                En la comunidad y zonas urbanas hay un problema constante de
+                congestionamiento vial y deterioro de las calles por baches.
+                Esto causa retrasos, mayor consumo de combustible, estrés,
+                daños a los vehículos y accidentes.
+            </p>
+            <p>
+                <strong>Pregunta de investigación:</strong> ¿Cómo puede una aplicación
+                móvil ayudar a reducir el congestionamiento vial y evitar calles
+                en mal estado mediante reportes de baches y rutas inteligentes?
+            </p>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Objetivos</h2>
+            <p>
+                <strong>Objetivo general:</strong> Desarrollar una aplicación móvil que
+                permita consultar el tráfico en tiempo real y localizar calles con
+                baches mediante reportes ciudadanos y rutas inteligentes.
+            </p>
+
+            <button id="btnObjetivos">Mostrar objetivos específicos</button>
+
+            <ul id="listaObjetivos" style="display: none;">
+                <li>Crear un mapa interactivo para visualizar rutas y calles dañadas.</li>
+                <li>Desarrollar un sistema de reportes de baches mediante ubicación.</li>
+                <li>Implementar alertas sobre tráfico y calles en mal estado.</li>
+                <li>Integrar rutas inteligentes para recomendar caminos alternos.</li>
+                <li>Diseñar una interfaz sencilla y accesible.</li>
+                <li>Registrar y actualizar información vial en tiempo real.</li>
+            </ul>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Comparación con otras aplicaciones</h2>
+            <table>
+                <tr>
+                    <th>Característica</th>
+                    <th>Google Maps</th>
+                    <th>Waze</th>
+                    <th>Moovit</th>
+                    <th>VIANOVA</th>
+                </tr>
+                <tr>
+                    <td>Tráfico en tiempo real</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Limitado</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Rutas alternativas</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Transporte público</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Reporte de baches</td>
+                    <td>No</td>
+                    <td>Limitado</td>
+                    <td>No</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Participación ciudadana</td>
+                    <td>Limitada</td>
+                    <td>Alta</td>
+                    <td>Mínima</td>
+                    <td>Alta</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Reporta un bache</h2>
+
+            <form id="formReporte">
+
+                <label for="nombre">Tu nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="calle">Calle o colonia:</label>
+                <input type="text" id="calle" placeholder="Ej. Calle Hidalgo, Col. Centro" required>
+
+                <label for="tamano">Tamaño aproximado (cm):</label>
+                <input type="number" id="tamano" min="1" required>
+
+                <button type="submit">Enviar reporte</button>
+
+            </form>
+
+            <p id="resultado"></p>
+            <p id="contador">Reportes enviados: 0</p>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Alumna</h2>
+            <ul>
+                <li>Contreras Maturino Brittany</li>
+                
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto Integrador - Zonas Urbanas</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

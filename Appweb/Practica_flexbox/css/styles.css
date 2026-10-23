@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.caja-A {
+  width: 100px;
+  background-color: lightgreen;
+  padding: 20px;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.caja-B {
+  width: 200px;
+  background-color: lightcoral;
+  border: 2px solid red;
+  border-top: 5px solid darkred;
+  border-bottom: 5px solid darkred;
+  margin: 10px;
+  padding: 20px;
+}
+
+.contenedor{
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between; 
+}
+
+.item{
+  background-color: #2f3e4e;
+  color: white;
+  padding: 20px 30px;
+  font-size: 24px;
+}

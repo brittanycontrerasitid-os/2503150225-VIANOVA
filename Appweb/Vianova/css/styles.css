@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #1f4e8c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.logo {
+    width: 220px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 15px 0 5px 0;
+    letter-spacing: 3px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #1f4e8c;
+    border-bottom: 3px solid #4628f2;
+    padding-bottom: 8px;
+}
+
+.imagen-seccion {
+    display: block;
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #f28c28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #d4741a;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1f4e8c;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#resultado {
+    text-align: center;
+    font-weight: bold;
+    color: #1f4e8c;
+}
+
+#contador {
+    text-align: center;
+    color: #f28c28;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1f4e8c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
